@@ -1,0 +1,4 @@
+while count < len(sortedmessages)
+	for items in sortedmessages[count]
+		with open('messagelist.csv','w',newline='' as fp:
+			writere = csv.wrtie
